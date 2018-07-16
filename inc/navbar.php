@@ -1,5 +1,5 @@
 <header>
-	<div class="navbar">
+	<div class="navbar" id="navbar">
 		<a href="#home">Home</a>
 		<a href="#news">News</a>
 		<div class="dropdown">
@@ -10,5 +10,6 @@
 				<a href="#">Link 3</a>
 			</div>
 		</div> 
+		<a href="javascript:void(0);" class="icon" onclick="mobileMenu()">&#9776;</a>
 	</div>
 </header>
